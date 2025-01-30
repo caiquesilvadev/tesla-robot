@@ -1,0 +1,43 @@
+@media(max-width: 560px) {
+    header .left {
+        display: block;
+    }
+    nav button, .divider, .robot {
+        display: none; /* Esconde os botões */
+      }
+      nav::before {
+        content: "Menu"; /* Adiciona o texto */
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border-radius: 5px;
+      }
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .s-hero .container {
+        display: block;
+    }
+    .s-hero .left-container .description{
+        padding: 0;
+    }
+    .s-hero .left-container h1 {
+        font-size: 40px;
+    }
+    .s-hero .second-content {
+        margin: 0;
+    }
+    .s-hero .second-content ul {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        
+    }
+}
